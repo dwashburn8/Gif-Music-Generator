@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Broom!</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="//use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+        <div class="columns">
+            <div class="column is-5  GiphyMusic">GIPHY</div>
+            <div class="column is-2  Broom"></div>
+            <div class="column is-5 MusicGiphy">MUSIC</div>
+
+        </div>
+
+
+        <div class="container gms">
+
+            <div class="columns">
+                <div id="divG" class="column is-5">
+                    <input id="Giphy" type="Giphy">
+                    <button id="gifButton" class="search">Search</button>
+                </div>
+
+
+                <div id="divS" class="column is-2">
+                    <button class="button is-primary has-text-black" id="sweep">Sweep</button>
+                </div>
+                <div id="divM" class="column is-5">
+                    <input id="Music" type="text">
+                    <button id="musicButton" class="search">Search</button>
+                    <div class="snd">
+                        <div class="toggle">
+                            <button class="toggle-play">Preview</button>
+                            
+                        </div>
+                        <input class="time" type="range" min="0" max="7" value="0" />
+                        <span class="currentTime">00:00</span>/
+                        <span class="duration">00:07</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <div id="divA" class="column is-5">
+
+                </div>
+
+                <div id="divB" class="column is-2">
+
+                </div>
+                <div id="divC" class="column is-5">
+
+                </div>
+
+            </div>
+            <br>
+            <div class="container">
+                <div class=" div1 column is-12">
+                    <p style="background-color: turquoise;"><strong>
+                        <div id="sweepTitle" class="row1">Please select a gif and song and then press sweep</div>
+                        <div id="sweepGifDiv" class="row2"></div>
+                        <div id="sweepSongDiv" class="row3"></div>
+                        <div id="sweepShare" class="row4">
+                                <input id="sweepValue" class="time" type="range" min="0" max="7" value="0" />
+                                <span id="sweepTime" class="currentTime">00:00</span>/
+                                <span class="duration">00:07</span>
+                                <br>
+                            <button>Share</button>
+                        </div>
+                        
+                           </strong>
+                    </p>
+                </div>
+                <section class="hero is-bold nav">
+                    <div class=" duck hero-head">
+                        <div class="container is-widescreen">
+                            <div class=" notification">
+                                <nav class="breadcrumb is-centered is-large " aria-label="breadcrumbs">
+                                    <ul>
+                                        <li>
+                                            <a href="https://twitter.com/explore">
+                                                <span class="icon is-large">
+                                                    <i class="fab fa-twitter"></i>
+                                                </span>
+                                                <span>Twitter</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/login.php">
+                                                <span class="icon is-large">
+                                                    <i class="fab fa-facebook-square"></i>
+                                                </span>
+                                                <span>Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span class="icon is-large">
+                                                <i class="fas fa-broom"></i>
+                                            </span>
+                                            <span><strong>Broom!</strong></span>
+                                            <span class="icon is-large">
+                                                <i class="fas fa-broom"></i>
+                                            </span>
+                                        </li>
+            
+                                        <li>
+                                            <a href="https://www.instagram.com/accounts/login/">
+                                                <span class="icon is-large">
+                                                    <i class="fab fa-instagram"></i>
+                                                </span>
+                                                <span>instagram</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fe-11-16048806fc444534657fefb78401743b-a5dde0ecb2e654f88750bfd8708150cbdeb4039b&flowName=GlifWebSignIn&flowEntry=SignUp">
+                                                <span class="icon is-large">
+                                                    <i class="fas fa-envelope"></i>
+                                                </span>
+                                                <span>G-Mail</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+            
+                            </div>
+                            </nav>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+            </div>
+             <!-- <section class="hero is-bold nav">
+                <div class=" duck hero-head">
+                    <div class="container is-widescreen">
+                        <div class=" notification">
+                            <nav class="breadcrumb is-centered is-large " aria-label="breadcrumbs">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/explore">
+                                            <span class="icon is-large">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                            <span>Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/login.php">
+                                            <span class="icon is-large">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </span>
+                                            <span>Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span class="icon is-large">
+                                            <i class="fas fa-broom"></i>
+                                        </span>
+                                        <span><strong>Broom!</strong></span>
+                                        <span class="icon is-large">
+                                            <i class="fas fa-broom"></i>
+                                        </span>
+                                    </li>
+        
+                                    <li>
+                                        <a href="https://www.instagram.com/accounts/login/">
+                                            <span class="icon is-large">
+                                                <i class="fab fa-instagram"></i>
+                                            </span>
+                                            <span>instagram</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fe-11-16048806fc444534657fefb78401743b-a5dde0ecb2e654f88750bfd8708150cbdeb4039b&flowName=GlifWebSignIn&flowEntry=SignUp">
+                                            <span class="icon is-large">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                            <span>G-Mail</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+        
+                        </div>
+                        </nav>
+                    </div>
+                </div>
+                </div>
+            </section> -->
+<br>
+
+            <div class="tile is-ancestor ">
+                <div class="tile is-parent has-background-white">
+                    <article class="tile is-child box has-background-black ">
+                        <p class="title has-text-primary">CJ Ruacho</p>
+                        <p class="subtitle has-text-primary">Creator</p>
+                    </article>
+                </div>
+                <div class="tile is-parent has-background-link">
+                    <article class="tile is-child box">
+                        <p class="title">Esmeralda Rodriguez</p>
+                        <p class="subtitle">Creator</p>
+                    </article>
+                </div>
+                <div class="tile is-parent has-background-grey-dark	">
+                    <article class="tile is-child box has-background-white	">
+                        <p class="title">Dallas Washburn</p>
+                        <p class="subtitle">Creator</p>
+                    </article>
+                </div>
+                <div class="tile is-parent has-background-primary">
+                    <article class="tile is-child box has-background-danger">
+                        <p class="title ">Steven Acevedo</p>
+                        <p class="subtitle">Creator</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="tile is-parent has-background-white">
+                        <article class="tile is-child box has-background-black  ">
+                            <div class="content  has-background-black ">
+                                <p class="title has-text-primary">ABOUT</p>
+                                <p class="subtitle has-text-primary">Subtitle</p>
+                                <div class="content has-text-primary">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+                                        erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+                                        consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula
+                                        eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                                    <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae
+                                        congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque
+                                        sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet
+                                        lacus, quis faucibus libero. Quisque non semper leo.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="tile is-parent has-background-link">
+                        <article class="tile is-child box">
+                            <div class="content">
+                                <p class="title">ABOUT</p>
+                                <p class="subtitle">Subtitle</p>
+                                <div class="content">
+                                    <p>I am 28 years old woman who has spent the last 7.5 years working as trauma
+                                        medical assistant for Sonoran Orthopaedic Trauma surgeons. Fresh out of school I
+                                        was nervous to start in Trauma but through hard work and dedication I was
+                                        promoted to Medical Assistant coordinator and have helped the practice establish
+                                        their satellite offices around the valley. The job itself is very rewarding but
+                                        I wanted a new challenge and coding is providing just that. I'm always up for a
+                                        new challenge to help me grow as a person and as a MA/Web developer. When I'm
+                                        not running around the valley, I like to spend time with my loved ones and two
+                                        dogs.</p>
+
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="tile is-parent has-background-grey-dark">
+                        <article class="tile is-child box">
+                            <div class="content">
+                                <p class="title">ABOUT</p>
+                                <p class="subtitle">Subtitle</p>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+                                        erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+                                        consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula
+                                        eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                                    <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae
+                                        congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque
+                                        sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet
+                                        lacus, quis faucibus libero. Quisque non semper leo.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="tile is-parent has-background-primary">
+                        <article class="tile is-child box has-background-danger">
+                            <div class="content">
+                                <p class="title">ABOUT</p>
+                                <p class="subtitle">Subtitle</p>
+                                <div class="content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+                                        erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+                                        consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula
+                                        eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                                    <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae
+                                        congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque
+                                        sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet
+                                        lacus, quis faucibus libero. Quisque non semper leo.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <footer>
+        <section class="hero is-primary space">
+            <div class="hero-body">
+                <div class="container">
+
+                    <h2 class="subtitle">
+                        Broom GiphyMusic © 2020 Created by Esme, Steven, Dallas, CJ
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- ........................................................ -->
+
+        <script src="//code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="/gif.js"></script>
+        <script src="./deezer.js"></script>
+
+        </div>
+
+
+    </footer>
+
+    </section>
+
+
+
+</body>
+
+</html>

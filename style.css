@@ -1,0 +1,99 @@
+.div1{
+    width:200px;
+    height: 600px;
+    border: 11px solid turquoise;
+    box-sizing: border-box;
+    text-align: center;
+}
+.duck{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+body{
+    
+    background-color: black;
+}
+.notification {
+    background-color: turquoise;
+}
+.duck{
+    margin: 0 auto !important;;
+}
+
+#Giphy{
+    margin-top: 8px;
+padding: 10px 50px;
+}
+#Music{
+    margin-top: 8px;
+    padding: 10px 50px;
+}
+#divG{
+  
+    text-align: center;
+}
+#divM{
+    text-align: center;
+}
+#divS{
+    text-align: center;
+    padding-top: 15px;
+}
+.search{
+    padding: 10px;
+}
+.GiphyMusic{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   color: white;
+   margin-top: 20px;
+   background-image: url(https://66.media.tumblr.com/e5eadd706d571fe5428ae50fa695cc5b/tumblr_pebu01FUPP1rte5gyo1_540.gifv);
+   background-repeat: no-repeat;
+   background-position: center;
+ 
+}
+.MusicGiphy{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+   color: white;
+   margin-top: 20px;
+   background-image: url(https://66.media.tumblr.com/f6c7b32a905e500b94818b2f8d3122a4/tumblr_oe2zsvsDEZ1r2geqjo1_540.gifv);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.space{
+    margin-top:200px ;
+    text-align: center;
+}
+.divleft{
+    width:1000px;
+    height: 100px;
+    border: 10px solid turquoise;
+    box-sizing: border-box;
+    text-align: center;
+    margin:auto;
+    padding:80px; 
+}
+.divright{
+    width:1000px;
+    height: 100px;
+    border: 10px solid turquoise;
+    box-sizing: border-box;
+    text-align: center;
+    margin:auto;
+    padding:80px;
+}
+.nav{
+    margin: 10px;
+}
+.gms{
+    margin-top: 0px;
+}
